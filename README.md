@@ -18,7 +18,7 @@ Since this project is about the shell, I found it appropriate to try and write m
 ![](2_What_is_a_shell__SeaShell/screenshot.png)
 
 
-## 3. Ownership and permissions - Tellaccess
+## 3. Ownership and permissions - **Tellaccess**
 
 This is one of the things that I know is really important for Linux, but have never really understood. I have tried before but never been able to get the knowledge to stick, maybe because I didn't really care about security until now. 
 
