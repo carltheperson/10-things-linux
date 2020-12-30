@@ -27,3 +27,10 @@ The ownership and permission system turned out to be really intuitive, and I was
 For the project I decided to create a program that tells you in human readable form, the ownership and permissions of a file. I called the project *tellaccess*, because it tells you who can access the file in what ways.
 
 ![](3_Ownership_and_permissions__Tellaccess/screenshot.png)
+
+## 4. Grep - **Grep detective**
+This is the sort of UNIX magic I have always wanted to learn. Since grep is all about regular expressions I would have to learn that first. This was actually quite difficult because grep uses the *POSIX Basic Regular Expressions*, which is not that common. The [Wikipedia entry](https://en.wikibooks.org/wiki/Regular_Expressions/POSIX_Basic_Regular_Expressions) was a lifesaver. Besides that, I also used the man page for grep as a reference.
+
+For the project I thought that a fun idea might be to create a detective game. In the game you get a folder full of files, and it’s your job to extract information. I called the game Grep detective.
+
+![](4_Grep__Grep_detective/screenshot.png)
