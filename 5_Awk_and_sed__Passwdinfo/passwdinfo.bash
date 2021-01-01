@@ -1,0 +1,1 @@
+sed '1i\\USERNAME USER_ID GROUP_ID HOME_DIRECTORY' /etc/passwd | awk 'BEGIN {FS=":";} {print $1,$3,$4,$6}' | column -t
