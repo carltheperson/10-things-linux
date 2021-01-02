@@ -41,3 +41,10 @@ This is more of the UNIX magic that I have always thought was really cool. Thoug
 I primarily used [this](https://www-users.york.ac.uk/~mijp1/teaching/2nd_year_Comp_Lab/guides/grep_awk_sed.pdf) paper to learn about awk and sed. For the project I wanted to create my own one liner that shows information about the users on your system in a clear way. I found just reading the */etc/passwd* a little too messy, so the project *passwdinfo*, displays the most important information in a neat table. I found information about the */etc/passwd* file [here](https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/).
 
 ![](5_Awk_and_sed__Passwdinfo/screenshot.png)
+
+## 6. Find - Find treasure hunt
+Another important tool I never really got around to learning. Learning how to use *find* was fairly easy, it was mostly about memorizing the different flags, and the format you set the flags in. I used [this](https://kb.iu.edu/d/admm) as a reference.
+
+For the project I created a treasure hunt where you look for clues in files with different attributes. I first wrote a script that created a bunch of small files and directories as noise. Then a selected few of the files got clues to the whereabouts about the other ones. At the end you find the treasure, which I won’t tell you what is.
+
+![](6_Find__Find_treasure_hunt/screenshot.png)
