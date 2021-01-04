@@ -35,23 +35,28 @@ For the project I thought that a fun idea might be to create a detective game. I
 
 ![](4_Grep__Grep_detective/screenshot.png)
 
-## 5. Awk and sed - Passwdinfo
+## 5. Awk and sed - **Passwdinfo**
 This is more of the UNIX magic that I have always thought was really cool. Though with awk and sed, I never really understood what they were used for. I often saw answers on Stack Overflow with people using them in crazy one liners, but I always copy pasted them without much thought. Well, time to unravel the mystery.
 
 I primarily used [this](https://www-users.york.ac.uk/~mijp1/teaching/2nd_year_Comp_Lab/guides/grep_awk_sed.pdf) paper to learn about awk and sed. For the project I wanted to create my own one liner that shows information about the users on your system in a clear way. I found just reading the */etc/passwd* a little too messy, so the project *passwdinfo*, displays the most important information in a neat table. I found information about the */etc/passwd* file [here](https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/).
 
 ![](5_Awk_and_sed__Passwdinfo/screenshot.png)
 
-## 6. Find - Find treasure hunt
+## 6. Find - **Find treasure hunt**
 Another important tool I never really got around to learning. Learning how to use *find* was fairly easy, it was mostly about memorizing the different flags, and the format you set the flags in. I used [this](https://kb.iu.edu/d/admm) as a reference.
 
 For the project I created a treasure hunt where you look for clues in files with different attributes. I first wrote a script that created a bunch of small files and directories as noise. Then a selected few of the files got clues to the whereabouts about the other ones. At the end you find the treasure, which I won’t tell you what is.
 
 ![](6_Find__Find_treasure_hunt/screenshot.png)
 
-## 7. File system - Root tour
+## 7. File system - **Root tour**
 Ever since I executed my first *ls /* I have wondered what all those directories were for. Time to unveil the mystery. The first thing I did was read [this](https://www.linux.com/training-tutorials/linux-filesystem-explained/) article as it explained each directory in root and provided a nice graph. [This](https://tldp.org/LDP/intro-linux/html/sect_03_01.html) resource was also nice since it had a table which summed up each directory in one or two sentences.
 
 The project ended up being a program that gives you descriptions for directories in your own root folder.
 
 ![](7_File_system__Root_tour/screenshot.png)
+
+## 8. Processes - **Stranger danger**
+Another important element of Linux which I have never gotten around to learning. Like many other subjects I have covered here it turned out to be fairly intuitive. [This](https://www.geeksforgeeks.org/processes-in-linuxunix/) article was really easy to understand. I was contemplating for a while what kind of project I could create, but ultimately came up with a command that prints all processes that don’t belong to you or root. That way, you can keep a close eye on who is creating services. Note, there are many legitimate reasons that other users would run processes on your system, and it rarely means someone has gained access to your computer.
+
+![](8_Processes__Stranger_danger/screenshot.png)
