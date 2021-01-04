@@ -48,3 +48,10 @@ Another important tool I never really got around to learning. Learning how to us
 For the project I created a treasure hunt where you look for clues in files with different attributes. I first wrote a script that created a bunch of small files and directories as noise. Then a selected few of the files got clues to the whereabouts about the other ones. At the end you find the treasure, which I won’t tell you what is.
 
 ![](6_Find__Find_treasure_hunt/screenshot.png)
+
+## 7. File system - Root tour
+Ever since I executed my first *ls /* I have wondered what all those directories were for. Time to unveil the mystery. The first thing I did was read [this](https://www.linux.com/training-tutorials/linux-filesystem-explained/) article as it explained each directory in root and provided a nice graph. [This](https://tldp.org/LDP/intro-linux/html/sect_03_01.html) resource was also nice since it had a table which summed up each directory in one or two sentences.
+
+The project ended up being a program that gives you descriptions for directories in your own root folder.
+
+![](7_File_system__Root_tour/screenshot.png)
