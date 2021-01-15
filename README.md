@@ -1,5 +1,7 @@
 # 10 things Linux
 
+How do you advance your Linux skills when you are already comfortable with the basics? My solution was to come up with 10 subjects to learn and create an accompanying mini-project.
+
 ## 1. UNIX - **Recat**
 
 The first thing I wanted to learn more about was UNIX since Linux is a UNIX-like operating system. I also never really felt that I fully understood what exactly UNIX was, besides being a family of fairly similar operating systems.
